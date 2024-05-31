@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="nav.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <title>Evangadi</title>
+</head>
+
+<body>
+  <section class="header-container">
+    <div id="header">
+      <div class="logo">
+        <img src="https://www.evangadi.com/themes/humans/assets/hammerlook/img/misc/evangadi-logo-white.png" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">How it Works</a></li>
+          <li class="signIn"><a href="">SIGN IN</a></li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <section class="main-container">
+    <div class="logIn">
+      <h2 class="logIn-title">Login to your account</h2>
+      <p>Don't have an account?<a class="new-account" href="">Create a new account</a></p>
+      <br />
+      <div class="info">
+        <input class="email" type="email" value="" placeholder="Your email" required />
+        <input class="password" type="password" name="password" autocomplete="current-password"
+          placeholder="Your password" required="" id="id_password" />
+        <span id="togglePassword" class="eye-icon" onclick="togglePasswordVisibility()">
+          👁️
+        </span>
+        <div>
+          <button class="logIn-btn" onclick="">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <h4 class="about-title">About</h4>
+      <h1>Evangadi Networks Q&A</h1>
+      <p>
+        Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+        Sed autem commodi, cumque veniam, <br />labore ullam a sapiente
+        aliquam harum reprehenderit excepturi<br />
+        quo quisquam voluptate reiciendis ipsam deleniti, repellendus
+        nobis maxime?
+      </p>
+      <br />
+      <p class="secondP">
+        Lorem ipsum dolor sit amet, <br />consectetur adipisicing elit.
+        Sed autem commodi, cumque veniam, <br />labore ullam a sapiente
+        aliquam harum reprehenderit excepturi<br />
+        quo quisquam voluptate reiciendis ipsam deleniti, repellendus
+        nobis maxime?
+      </p>
+      <a href=""><button class="about-btn">How it works</button></a>
+      
+    </div>
+
+  </section>
+
+  <section class="footer-container">
+  <div class="footer">
+    <div class="footer-logo">
+      <img src="https://www.evangadi.com/themes/humans/assets/hammerlook/img/misc/evangadi-logo-white.png" />
+    </div>
+    <div class="link">
+      <h2>Useful Link</h2>
+      <ul>
+        <li>How it works</li>
+        <li>Terms of Service</li>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
+    <div class="contact">
+      <h2>Contact Info</h2>
+      <ul>
+        <li>Evangadi Networks</li>
+        <li>support@evangadi.com</li>
+        <li>+1(202)-386-2702</li>
+      </ul>
+    </div>
+  </div>
+  </section>
+  
+  <script src="eye.js"></script>
+</body>
+
+</html>
