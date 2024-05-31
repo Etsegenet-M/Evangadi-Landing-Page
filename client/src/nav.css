@@ -1,0 +1,176 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+/* Header starts here */
+#header{
+  background-color: black;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding-top: 30px;
+  
+}
+.logo{
+  width: 30%;
+}
+nav{
+  width: 40%;
+}
+nav ul  {
+  display: flex;
+  align-items: end;
+  align-items: space-between;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size:medium;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.signIn{
+  background-color: lightskyblue;
+  padding: 10px 50px;
+  border-radius: 10px;
+  width: 20%;
+  text-align: center;
+}
+
+/* Header ends here */
+
+/* main starts here */
+
+.main-container {
+  background-image: url(background-image.svg);
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  background-color: whitesmoke;
+  height: 500px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position:relative;
+}
+
+/* Login starts here */
+.logIn {
+  position:absolute;
+  background-color: white;
+  left: 20%;
+  width: 30%;
+  height: 400px;
+  text-align: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+.logIn-title{
+  text-align: center;
+  padding-top: 40px;
+}
+.new-account{
+  color: #fe8402;
+}
+.logIn-btn {
+  background-color: #fe8402;
+  color: white;
+  border: 0ch;
+  padding: 10px;
+  width: 80%;
+  cursor: pointer;
+}
+.email, .password{
+  width: 80%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.info {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+}
+.eye-icon{
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Login ends here */
+
+/* About starts here */
+.about{
+  position: absolute;
+  right: 15%;
+  width: 30%;
+}
+.about-title {
+  text-align: left;
+  padding-top: 80px;
+  color: red;
+}
+.about-btn {
+  background-color: #fe8402;
+  color: white;
+  border: 0ch;
+  padding: 10px;
+  width: 80%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+/* About ends here */
+
+
+/* Footer starts here */
+.footer {
+  background-color: #3b455a;
+  display: flex;
+  justify-content:space-around;
+}
+.footer-logo{
+  padding-top: 20px;
+  
+}
+.footer h2 {
+  padding-top: 10px;
+}
+
+.link{
+  text-align: right;
+  color: white;
+}
+.link ul{
+  list-style: none;
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  padding-right: 20px;
+}
+.contact ul{
+  list-style: none;
+  text-align: left;
+}
+
+/* Footer ends here */
+
+/* small screen set up */
+@media (max-width: 768px){ 
+.secondP{
+  display: none;
+}
+.main-container{
+  display: block;
+}
+}
+
+
+
